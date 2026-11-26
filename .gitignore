@@ -221,3 +221,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project: raw SSv2 videos and cached features (large)
+/data/*
+!/data/.gitkeep
