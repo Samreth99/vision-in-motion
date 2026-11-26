@@ -1,7 +1,7 @@
 **Is Per-Frame Semantics Enough for Motion Understanding?**
 
-[DINOv3](https://arxiv.org/abs/2508.10104) (image-only) is state of the art on many visual benchmarks but falls short on
-[Something-Something v2](https://arxiv.org/abs/1706.04261) (SSv2), a motion-understanding dataset. [V-JEPA 2.1](https://arxiv.org/abs/2603.14482) (video + image)
+[DINOv3](https://arxiv.org/abs/2508.10104) is state of the art on many visual benchmarks but falls short on
+[Something-Something v2](https://arxiv.org/abs/1706.04261) (SSv2), a motion-understanding dataset. [V-JEPA 2.1](https://arxiv.org/abs/2603.14482)
 reaches 77.7% on SSv2. With **frozen encoders**, can we close the gap by increasing the head's
 parameters or by using a temporal architecture over per-frame features? On which classes
 does the gain appear?
